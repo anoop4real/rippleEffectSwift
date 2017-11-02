@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76FAEBBF1FABA29D003CAEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAEBBE1FABA29D003CAEA9 /* AppDelegate.swift */; };
+		76FAEBC11FABA29D003CAEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAEBC01FABA29D003CAEA9 /* ViewController.swift */; };
+		76FAEBC41FABA29D003CAEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FAEBC21FABA29D003CAEA9 /* Main.storyboard */; };
+		76FAEBC61FABA29D003CAEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FAEBC51FABA29D003CAEA9 /* Assets.xcassets */; };
+		76FAEBC91FABA29D003CAEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FAEBC71FABA29D003CAEA9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76FAEBBB1FABA29C003CAEA9 /* rippleEffectSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rippleEffectSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FAEBBE1FABA29D003CAEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76FAEBC01FABA29D003CAEA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76FAEBC31FABA29D003CAEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76FAEBC51FABA29D003CAEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76FAEBC81FABA29D003CAEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76FAEBCA1FABA29D003CAEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FAEBB81FABA29C003CAEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76FAEBB21FABA29C003CAEA9 = {
+			isa = PBXGroup;
+			children = (
+				76FAEBBD1FABA29C003CAEA9 /* rippleEffectSwift */,
+				76FAEBBC1FABA29C003CAEA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FAEBBC1FABA29C003CAEA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FAEBBB1FABA29C003CAEA9 /* rippleEffectSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FAEBBD1FABA29C003CAEA9 /* rippleEffectSwift */ = {
+			isa = PBXGroup;
+			children = (
+				76FAEBBE1FABA29D003CAEA9 /* AppDelegate.swift */,
+				76FAEBC01FABA29D003CAEA9 /* ViewController.swift */,
+				76FAEBC21FABA29D003CAEA9 /* Main.storyboard */,
+				76FAEBC51FABA29D003CAEA9 /* Assets.xcassets */,
+				76FAEBC71FABA29D003CAEA9 /* LaunchScreen.storyboard */,
+				76FAEBCA1FABA29D003CAEA9 /* Info.plist */,
+			);
+			path = rippleEffectSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FAEBBA1FABA29C003CAEA9 /* rippleEffectSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FAEBCD1FABA29D003CAEA9 /* Build configuration list for PBXNativeTarget "rippleEffectSwift" */;
+			buildPhases = (
+				76FAEBB71FABA29C003CAEA9 /* Sources */,
+				76FAEBB81FABA29C003CAEA9 /* Frameworks */,
+				76FAEBB91FABA29C003CAEA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rippleEffectSwift;
+			productName = rippleEffectSwift;
+			productReference = 76FAEBBB1FABA29C003CAEA9 /* rippleEffectSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FAEBB31FABA29C003CAEA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = anoopm;
+				TargetAttributes = {
+					76FAEBBA1FABA29C003CAEA9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6UT7M6DT43;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 76FAEBB61FABA29C003CAEA9 /* Build configuration list for PBXProject "rippleEffectSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76FAEBB21FABA29C003CAEA9;
+			productRefGroup = 76FAEBBC1FABA29C003CAEA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76FAEBBA1FABA29C003CAEA9 /* rippleEffectSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FAEBB91FABA29C003CAEA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FAEBC91FABA29D003CAEA9 /* LaunchScreen.storyboard in Resources */,
+				76FAEBC61FABA29D003CAEA9 /* Assets.xcassets in Resources */,
+				76FAEBC41FABA29D003CAEA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FAEBB71FABA29C003CAEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FAEBC11FABA29D003CAEA9 /* ViewController.swift in Sources */,
+				76FAEBBF1FABA29D003CAEA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76FAEBC21FABA29D003CAEA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76FAEBC31FABA29D003CAEA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76FAEBC71FABA29D003CAEA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76FAEBC81FABA29D003CAEA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76FAEBCB1FABA29D003CAEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76FAEBCC1FABA29D003CAEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76FAEBCE1FABA29D003CAEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UT7M6DT43;
+				INFOPLIST_FILE = rippleEffectSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anoop.rippleEffectSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76FAEBCF1FABA29D003CAEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UT7M6DT43;
+				INFOPLIST_FILE = rippleEffectSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anoop.rippleEffectSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FAEBB61FABA29C003CAEA9 /* Build configuration list for PBXProject "rippleEffectSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FAEBCB1FABA29D003CAEA9 /* Debug */,
+				76FAEBCC1FABA29D003CAEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FAEBCD1FABA29D003CAEA9 /* Build configuration list for PBXNativeTarget "rippleEffectSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FAEBCE1FABA29D003CAEA9 /* Debug */,
+				76FAEBCF1FABA29D003CAEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76FAEBB31FABA29C003CAEA9 /* Project object */;
+}
